@@ -1,37 +1,77 @@
+body {
+    margin: 0;
+}
+
 figure {
     position: relative;
-    text-align: center;
     display: block;
+    margin: 0;
 }
 
 figure img {
-    width: 70%;
     height: 40em;
-    margin-top: -1em;
     z-index: 1;
+    width: 100%;
 }
 
 figure figcaption {
     position: absolute;
-    font-size: 4em;
+    font-size: 8em;
     font-family: Monsieur La Doulaise;
+    text-align: center;
     z-index: 2;
     top: 0;
     width: 100%;
 }
-#navbar {
-    border: 1px solid white;
-    width: 30em;
-    height: 3em;
+.lcontent {
+    background-color: #57E6B6;
+    color: black;
+    width: 70%;
+    height: 60em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1.3em;
-    background-color: grey;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.rcontent {
+    float: right;
+    background-color: #57E6B6;
+    color: black;
+    width: 32%;
+    height: 20em;
+    margin-right: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.footer {
+    width: 100%;
+    color: black;
+    background-color: #D6D6D6;
+    clear: both;
+    position: relative;
+    margin-bottom: -1em;
+}
+.footer p {
+    text-align: right;
+}
+div p {
+    margin-left: 1em;
+}
+div h3 {
+    margin-left: 1em;
+}
+#navbar {
+    width: 40em;
+    margin-top: -.4em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 #navbar li {
     display: inline;
-    color: green;
-    border: 1px solid black;
-    padding-left: 1em;
-    border-top: 4px;
+    background-color: #F0F0F0;
+    padding: 1em;
+    margin-left: -.4em;
 }
+
